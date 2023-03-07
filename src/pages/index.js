@@ -12,9 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <div style={{ width: "100%", height: "100%" }}>
-        <Image src={cover} layout="fill" objectFit="contain" />
-      </div>
+      <Image src={cover} layout={"responsive"} />
+
       <NewsSection />
       {/* <NewComponent text="อะไรซักอย่างที่มันไม่บัค" /> */}
       <Head>
