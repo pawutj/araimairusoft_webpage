@@ -108,7 +108,12 @@ a {
 }
 
 .news-section {
-  background-color: white !important;
+}
+
+h1 {
+  font-family: "Prompt", sans-serif;
+  font-size: 32px;
+  color: #390000;
 }
 
 .new-component {
