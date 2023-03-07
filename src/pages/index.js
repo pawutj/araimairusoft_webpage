@@ -1,16 +1,20 @@
 import Head from "next/head";
-import Image from "next/image";
+
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import NewComponent from "@/components/NewComponent";
 import NewsSection from "@/components/NewsSection";
 import Navbar from "@/components/Navbar";
-
+import cover from "../../public/cover.png";
+import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+      <div style={{ width: "100%", height: "100%" }}>
+        <Image src={cover} layout="fill" objectFit="contain" />
+      </div>
       <NewsSection />
       {/* <NewComponent text="อะไรซักอย่างที่มันไม่บัค" /> */}
       <Head>
