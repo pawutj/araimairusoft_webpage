@@ -1,5 +1,5 @@
 export default function Navbar() {
-    return <div className="navbar navbar-bg mynavbar color-brown navbar-expand-lg">
+    return <div className="navbar navbar-bg mynavbar color-brown navbar-expand-md">
         <h1 className="navbar-brand mynavbar-brand color-brown">aRaimaiRuSoft</h1>
         <div className="collapse navbar-collapse" style={{
             flexGrow:"0"
