@@ -7,11 +7,19 @@ import NewsSection from "@/components/NewsSection";
 import Navbar from "@/components/Navbar";
 import cover from "../../public/cover.png";
 import Image from "next/image";
+
+import bg from "../asset/background-table.png";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
+    <div
+      style={{
+        backgroundImage: `url(${bg.src})`,
+        backgroundSize: 800,
+      }}
+    >
       <Image src={cover} layout={"responsive"} />
 
       <NewsSection />
@@ -23,6 +31,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar></Navbar>
-    </>
+    </div>
   );
 }

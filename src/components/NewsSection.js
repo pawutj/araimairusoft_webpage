@@ -8,12 +8,7 @@ import article3 from "../../public/article3.png";
 
 export default function NewsSection() {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${bg.src})`,
-        backgroundSize: 800,
-      }}
-    >
+    <div>
       <div class="row section">
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
