@@ -1,0 +1,2 @@
+# araimairusoft_webpage
+AraimairuWebPage
