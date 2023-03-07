@@ -156,6 +156,7 @@ h1 {
   z-index: 10;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 li , ul {
@@ -167,15 +168,21 @@ li , ul {
 }
 
 .nav-menu{
+  width: 60%;
   margin-right: 4em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .mynavbar-brand{
   margin-left: 2em;
 }
 .navbar-ul-li-item{
   padding: 0 2em;
+}
+
+.color-brown {
+  color: #390000;
 }
 
