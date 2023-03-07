@@ -86,6 +86,7 @@ body {
 }
 
 body {
+  font-family: "Prompt", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -106,12 +107,17 @@ a {
   }
 }
 
+.news-section {
+  background-color: white !important;
+}
+
 .new-component {
   /* Frame 5 */
   color: #390000;
 
   /* Auto layout */
-
+  margin-top: 16px;
+  margin-bottom: 16px;
   display: flex;
   flex-direction: row;
   align-items: center;
