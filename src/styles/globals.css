@@ -196,4 +196,11 @@ ul {
   position: relative;
   width: 100%;
 }
+.child-margin-24 > * {
+   margin-bottom: 24px;
+}
 
+.--bs-gutter-x0{
+  --bs-gutter-x: 0;
+
+}
