@@ -7,7 +7,7 @@ import NewsSection from "@/components/NewsSection";
 import Navbar from "@/components/Navbar";
 import cover from "../../public/cover.png";
 import Image from "next/image";
-
+import Product from "@/components/Product"
 import bg from "../asset/background-table.png";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,8 +21,8 @@ export default function Home() {
       }}
     >
       <Image src={cover} layout={"responsive"} />
-
       <NewsSection />
+      <Product></Product>
       {/* <NewComponent text="อะไรซักอย่างที่มันไม่บัค" /> */}
       <Head>
         <title>Create Next App</title>
@@ -31,6 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar></Navbar>
+
     </div>
   );
 }
