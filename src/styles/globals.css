@@ -115,6 +115,11 @@ h1 {
   font-size: 32px;
   color: #390000;
 }
+h2 {
+  font-family: "Prompt", sans-serif;
+  font-size: 24px;
+  color: #390000;
+}
 
 .section {
   margin-bottom: 60px;
@@ -203,4 +208,9 @@ ul {
 .--bs-gutter-x0{
   --bs-gutter-x: 0;
 
+}
+.staff-center-txt{
+  padding-right: 4em;
+
+  text-align: center;
 }
