@@ -14,10 +14,23 @@ export default function NewsSection() {
           <h1>
             <b>News</b>
           </h1>
-          <NewComponent text="Sakura, Moyu. -as the Night's, Reincarnation- AAAAAAAAAAAAAAAAAAAA" />
-          <NewComponent text="Sakura, Moyu. -as the Night's, Reincarnation-" />
-          <NewComponent text="Sakura, Moyu. -as the Night's, Reincarnation-" />
-          <NewComponent text="Sakura, Moyu. -as the Night's, Reincarnation-" />
+          <NewComponent
+            date="01/04/2566"
+            text="Demo MiraO No Boken คลอดแล้ว เจอกันวันที่ 01/04/2566"
+          />
+          <NewComponent
+            date="01/04/2566"
+            text="ช๊อค !! พนักงานทั้งบริษัทออกไปเลี้ยงแมวน้ำ รับสมัครเพื่อนใหม่ด่วน !!"
+          />
+          <NewComponent
+            date="01/04/2566"
+            text="ข้าวแดงอร่อยมาก รีวิวโดยโลลิคอนคนนึงที่กำลังเขียนโปรแกรมอยู่"
+          />
+
+          <NewComponent
+            date="01/04/2566"
+            text="เลื่อนอีกแล้ว ! Mirao No Boken ผู้แต่งบอก น้องสาวหายไป ต้องไปตามหา"
+          />
         </div>
       </Section>
 
@@ -28,11 +41,13 @@ export default function NewsSection() {
           </h1>
           <div className="row">
             <div className="col-sm-4">
-              <Image
-                src={article1}
-                layout={"responsive"}
-                style={{ padding: 20 }}
-              />
+              <a href="http://www.google.com">
+                <Image
+                  src={article1}
+                  layout={"responsive"}
+                  style={{ padding: 20 }}
+                />
+              </a>
             </div>
             <div className="col-sm-4">
               <Image

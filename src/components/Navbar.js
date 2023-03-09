@@ -11,7 +11,7 @@ export default function Navbar() {
           marginTop: 16,
         }}
       >
-        <ul className="nav-menu ">
+        <ul className="nav-menu">
           <li className="navbar-ul-li-item">
             <h1>
               <b>News</b>

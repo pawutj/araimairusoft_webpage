@@ -121,6 +121,16 @@ h2 {
   color: #390000;
 }
 
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px !important;
+  color: #390000;
+}
+
+.thai-font {
+  font-family: "Noto Sans Thai", sans-serif !important;
+}
+
 .section {
   margin-bottom: 60px;
 }
@@ -140,7 +150,7 @@ h2 {
 
   /* width: 960px; */
   height: 60px;
-
+  border: 1px solid #00618b;
   background: #ffffff;
   /* Card Drop Shadow */
 
