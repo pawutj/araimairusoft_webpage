@@ -11,7 +11,7 @@ export default function Contact({ children, style }) {
         style={{ background: "#E0ECFD", marginBottom: "0" }}
       >
         <Section>
-          <h1 style={{ marginBottom: 24, marginTop: 24 }}>
+          <h1 style={{ marginBottom: 24 }}>
             <b>Contact</b>
           </h1>
 
