@@ -6,6 +6,21 @@ import article1 from "../../public/article1.png";
 import article2 from "../../public/article2.png";
 import article3 from "../../public/article3.png";
 import Section from "./Section";
+
+const ResponsiveDiv = ({ children }) => {
+  return (
+    <div>
+      <div
+        class="d-lg-none"
+        style={{ paddingLeft: 60, paddingRight: 60, paddingTop: 10 }}
+      >
+        {children}
+      </div>
+      <div class="d-none d-lg-block">{children}</div>
+    </div>
+  );
+};
+
 export default function NewsSection() {
   return (
     <div>
@@ -41,27 +56,21 @@ export default function NewsSection() {
           </h1>
           <div className="row">
             <div className="col-sm-4">
-              <a href="http://www.google.com">
-                <Image
-                  src={article1}
-                  layout={"responsive"}
-                  style={{ padding: 20 }}
-                />
-              </a>
+              <ResponsiveDiv>
+                <a href="http://www.google.com">
+                  <Image src={article1} layout={"responsive"} />
+                </a>
+              </ResponsiveDiv>
             </div>
             <div className="col-sm-4">
-              <Image
-                src={article2}
-                layout={"responsive"}
-                style={{ padding: 20 }}
-              />
+              <ResponsiveDiv>
+                <Image src={article2} layout={"responsive"} />
+              </ResponsiveDiv>
             </div>
             <div className="col-sm-4">
-              <Image
-                src={article3}
-                layout={"responsive"}
-                style={{ padding: 20 }}
-              />
+              <ResponsiveDiv>
+                <Image src={article3} layout={"responsive"} />
+              </ResponsiveDiv>
             </div>
           </div>
         </div>
