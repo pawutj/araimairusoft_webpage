@@ -13,7 +13,7 @@ export default function Product() {
   return (
     <PurpleSection>
       <div
-        className="row section product --bs-gutter-x0"
+        className="row section product --bs-gutter-x0 margin-24"
         style={{ background: "#E0ECFD", marginBottom: "0" }}
       >
         <div class="col-sm-2"></div>

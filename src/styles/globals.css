@@ -86,7 +86,7 @@ body {
 }
 
 body {
-  font-family: "Prompt", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -212,4 +212,9 @@ ul {
   padding-right: 4em;
 
   text-align: center;
+}
+
+.margin-24 {
+  padding-left: 24px;
+  padding-right: 24px;
 }

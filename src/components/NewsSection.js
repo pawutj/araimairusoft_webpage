@@ -10,7 +10,7 @@ export default function NewsSection() {
   return (
     <div>
       <Section>
-        <div className="news-section">
+        <div className="news-section margin-24">
           <h1>
             <b>News</b>
           </h1>
@@ -22,12 +22,34 @@ export default function NewsSection() {
       </Section>
 
       <Section>
-        <h1>
-          <b>Article</b>
-        </h1>
-        <Image src={article1} height={140} width={300} />
-        <Image src={article2} height={140} width={300} />
-        <Image src={article3} height={140} width={300} />
+        <div className="margin-24">
+          <h1>
+            <b>Article</b>
+          </h1>
+          <div className="row">
+            <div className="col-sm-4">
+              <Image
+                src={article1}
+                layout={"responsive"}
+                style={{ padding: 20 }}
+              />
+            </div>
+            <div className="col-sm-4">
+              <Image
+                src={article2}
+                layout={"responsive"}
+                style={{ padding: 20 }}
+              />
+            </div>
+            <div className="col-sm-4">
+              <Image
+                src={article3}
+                layout={"responsive"}
+                style={{ padding: 20 }}
+              />
+            </div>
+          </div>
+        </div>
       </Section>
     </div>
   );
