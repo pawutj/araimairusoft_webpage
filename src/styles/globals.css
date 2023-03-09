@@ -111,13 +111,13 @@ a {
 }
 
 h1 {
-  font-family: "Prompt", sans-serif;
-  font-size: 32px;
-  color: #390000;
+  font-family: "Nunito", sans-serif;
+  font-size: 32px !important;
+  color: #390000 !important;
 }
 h2 {
-  font-family: "Prompt", sans-serif;
-  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px !important;
   color: #390000;
 }
 
@@ -196,20 +196,19 @@ ul {
   color: #390000;
 }
 
-.product{
+.product {
   padding: 0rem 0rem;
   position: relative;
   width: 100%;
 }
 .child-margin-24 > * {
-   margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
-.--bs-gutter-x0{
+.--bs-gutter-x0 {
   --bs-gutter-x: 0;
-
 }
-.staff-center-txt{
+.staff-center-txt {
   padding-right: 4em;
 
   text-align: center;
