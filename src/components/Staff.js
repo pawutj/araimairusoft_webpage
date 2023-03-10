@@ -7,10 +7,10 @@ import SealArtistOfficer from "../../public/SealArtistOfficer.png";
 const ResponsiveDiv = ({ children }) => {
   return (
     <div>
-      <div class="d-lg-none" style={{ padding: 40 }}>
+      <div class="d-md-none" style={{ padding: 40 }}>
         {children}
       </div>
-      <div class="d-none d-lg-block">{children}</div>
+      <div class="d-none d-md-block">{children}</div>
     </div>
   );
 };
@@ -23,7 +23,7 @@ export default function Staff({ children, style }) {
           <b>Staff</b>
         </h1>
         <div className="row" style={{ justifyContent: "center" }}>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <ResponsiveDiv>
               <Image src={SEO} layout={"responsive"} />
               <h2 className="staff-center-txt">Seal Excutive Officer</h2>
@@ -31,13 +31,13 @@ export default function Staff({ children, style }) {
           </div>
         </div>
         <div className="row" style={{ justifyContent: "space-evenly" }}>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <ResponsiveDiv>
               <Image src={SealArtistOfficer} layout={"responsive"} />
               <h2 className="staff-center-txt">Seal Artist Officer</h2>
             </ResponsiveDiv>
           </div>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <ResponsiveDiv>
               <Image src={SealAraiOfficer} layout={"responsive"} />
               <h2 className="staff-center-txt">Seal Araimairu Officer</h2>

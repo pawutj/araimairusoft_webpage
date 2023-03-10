@@ -11,12 +11,12 @@ const ResponsiveDiv = ({ children }) => {
   return (
     <div>
       <div
-        class="d-lg-none"
+        class="d-md-none"
         style={{ paddingLeft: 60, paddingRight: 60, paddingTop: 10 }}
       >
         {children}
       </div>
-      <div class="d-none d-lg-block">{children}</div>
+      <div class="d-none d-md-block">{children}</div>
     </div>
   );
 };
@@ -55,19 +55,19 @@ export default function NewsSection() {
             <b>Article</b>
           </h1>
           <div className="row">
-            <div className="col-sm-4">
+            <div className="col-md-4">
               <ResponsiveDiv>
                 <a href="http://www.google.com">
                   <Image src={article1} layout={"responsive"} />
                 </a>
               </ResponsiveDiv>
             </div>
-            <div className="col-sm-4">
+            <div className="col-md-4">
               <ResponsiveDiv>
                 <Image src={article2} layout={"responsive"} />
               </ResponsiveDiv>
             </div>
-            <div className="col-sm-4">
+            <div className="col-md-4">
               <ResponsiveDiv>
                 <Image src={article3} layout={"responsive"} />
               </ResponsiveDiv>
