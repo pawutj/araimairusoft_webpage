@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Navbar() {
   return (
     <div className="navbar navbar-bg mynavbar color-brown navbar-expand-md">
@@ -14,27 +15,37 @@ export default function Navbar() {
         <ul className="nav-menu">
           <li className="navbar-ul-li-item">
             <h1>
-              <b>News</b>
+              <Link href="#news" scroll={false}>
+                <b>News</b>
+              </Link>
             </h1>
           </li>
           <li className="navbar-ul-li-item">
             <h1>
-              <b>Article</b>
+              <Link href="#article" scroll={false}>
+                <b>Article</b>
+              </Link>
             </h1>
           </li>
           <li className="navbar-ul-li-item">
             <h1>
-              <b>Product</b>
+              <Link href="#product" scroll={false}>
+                <b>Product</b>
+              </Link>
             </h1>
           </li>
           <li className="navbar-ul-li-item">
             <h1>
-              <b>Staff</b>
+              <Link href="#staff" scroll={false}>
+                <b>Staff</b>
+              </Link>
             </h1>
           </li>
           <li className="navbar-ul-li-item">
             <h1>
-              <b>Contact</b>
+              <Link href="#contact" scroll={false}>
+                <b>Contact</b>
+              </Link>
             </h1>
           </li>
         </ul>

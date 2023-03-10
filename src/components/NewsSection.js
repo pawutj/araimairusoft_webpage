@@ -25,7 +25,7 @@ export default function NewsSection() {
   return (
     <div>
       <Section>
-        <div className="news-section margin-24">
+        <div className="news-section margin-24" id="news">
           <h1>
             <b>News</b>
           </h1>
@@ -50,7 +50,7 @@ export default function NewsSection() {
       </Section>
 
       <Section>
-        <div className="margin-24">
+        <div className="margin-24" id="article">
           <h1>
             <b>Article</b>
           </h1>

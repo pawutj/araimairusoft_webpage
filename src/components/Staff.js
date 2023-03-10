@@ -18,7 +18,7 @@ const ResponsiveDiv = ({ children }) => {
 export default function Staff({ children, style }) {
   return (
     <Section>
-      <div style={{ paddingLeft: 24 }}>
+      <div style={{ paddingLeft: 24 }} id="staff">
         <h1>
           <b>Staff</b>
         </h1>
