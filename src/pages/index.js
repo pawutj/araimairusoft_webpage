@@ -11,6 +11,7 @@ import Product from "@/components/Product";
 import bg from "../asset/background-table.png";
 import Staff from "@/components/Staff";
 import Contact from "@/components/Contact";
+import Bubble from "@/components/Bubble";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <Product />
       <Staff />
       <Contact />
+      <Bubble />
     </div>
   );
 }

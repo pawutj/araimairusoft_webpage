@@ -232,3 +232,49 @@ ul {
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.bubble {
+  width: 100%;
+  height: 200%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background-image: url("../../public/bubble.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  -webkit-animation: bubbleAnime 8s infinite forwards linear;
+  animation: bubbleAnime 8s infinite forwards linear;
+  pointer-events: none;
+}
+
+@-webkit-keyframes bubbleAnime {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+@keyframes bubbleAnime {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
