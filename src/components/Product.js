@@ -11,7 +11,7 @@ export default function Product() {
   const product_list = [product_mbk, product_ksns, product_mns];
 
   return (
-    <PurpleSection>
+    <PurpleSection footer={true}>
       <div
         className="row section product --bs-gutter-x0 margin-24"
         style={{ background: "#E0ECFD", marginBottom: "0" }}

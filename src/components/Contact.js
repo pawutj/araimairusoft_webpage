@@ -1,16 +1,42 @@
-import Section from "./Section";
-import PurpleSection from "./PurpleSection";
-import footer from "../asset/footer.png";
+import Section from './Section';
+import PurpleSection from './PurpleSection';
+import footer from '../asset/footer.png';
+import join_us from '../../public/join_us.png';
+import Image from 'next/image';
 import purplewave_rotate_flip from "../../public/footer.png";
-import Image from "next/image";
+
 export default function Contact({ children, style }) {
   return (
     <PurpleSection>
       <div
         className="row section product --bs-gutter-x0"
-        style={{ background: "#E0ECFD", marginBottom: "0" }}
+        style={{ background: '#E0ECFD', marginBottom: '0' }}
       >
         <Section>
+          <div style={{ marginLeft: 24 }} id="contact">
+            <div className="row">
+              <div className="col-sm-4">
+                <h1 style={{ marginBottom: 40 }}>
+                  <b>Join Now</b>
+                </h1>
+                <h1 style={{ marginBottom: 28 }}>
+                  <b>ประกาศรับสมัคร</b>
+                </h1>
+                <p>
+                  <ul className="liststyledot">
+                    <li className="liststyledot">กรรมกรนักวาดรูป</li>
+                    <li className="liststyledot">กรรมกรเลื่อนปุ่ม</li>
+                    <li className="liststyledot">กรรมกรเขียนบท</li>
+
+                  </ul>
+                </p>
+              </div>
+              <div className="col-sm-8">
+              <Image src={join_us} layout={"responsive"} style={{ padding: "0" }} />
+
+              </div>
+            </div>
+          </div>
           <div style={{ marginLeft: 24 }} id="contact">
             <h1 style={{ marginBottom: 24 }}>
               <b>Contact</b>
@@ -39,6 +65,7 @@ export default function Contact({ children, style }) {
               </div>
             </div>
           </div>
+          
         </Section>
         <Image
           src={purplewave_rotate_flip}

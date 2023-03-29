@@ -248,6 +248,10 @@ ul {
   pointer-events: none;
 }
 
+.liststyledot{
+  list-style: disc;
+}
+
 @-webkit-keyframes bubbleAnime {
   0% {
     opacity: 0;
