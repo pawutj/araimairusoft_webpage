@@ -14,22 +14,20 @@ export default function Contact({ children, style }) {
       >
         <Section>
           <div style={{ marginLeft: 24 }} id="contact">
-            <div className="row">
+            <div className="row thai-font">
               <div className="col-sm-4">
-                <h1 style={{ marginBottom: 40 }}>
+                <h1 className='thai-font' style={{ marginBottom: 40 }}>
                   <b>Join Now</b>
                 </h1>
-                <h1 style={{ marginBottom: 28 }}>
+                <h1 className='thai-font' style={{ marginBottom: 28 }}>
                   <b>ประกาศรับสมัคร</b>
                 </h1>
-                <p>
-                  <ul className="liststyledot">
-                    <li className="liststyledot">กรรมกรนักวาดรูป</li>
-                    <li className="liststyledot">กรรมกรเลื่อนปุ่ม</li>
-                    <li className="liststyledot">กรรมกรเขียนบท</li>
+                  <ul className="liststyledot ">
+                    <li className="liststyledot paragraph ">กรรมกรนักวาดรูป</li>
+                    <li className="liststyledot paragraph">กรรมกรเลื่อนปุ่ม</li>
+                    <li className="liststyledot paragraph">กรรมกรเขียนบท</li>
 
                   </ul>
-                </p>
               </div>
               <div className="col-sm-8">
               <Image src={join_us} layout={"responsive"} style={{ padding: "0" }} />
