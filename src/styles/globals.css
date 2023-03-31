@@ -286,3 +286,28 @@ ul {
     transform: translateY(-50%);
   }
 }
+
+
+
+.button-prototype{
+  font-family: "Noto Sans Thai", sans-serif !important;
+
+  padding: 10px;
+  gap: 10px;
+  
+
+  width: 200px;
+  height: 42px;
+  left: 1042px;
+  top: 51px;
+  
+  /* Fuschia/100 */
+  
+  
+  border-style: none;
+  background: #EF5DA8;
+  border-radius: 16px;
+  box-shadow: none;
+  color:white;
+  font-size: 16px;
+}

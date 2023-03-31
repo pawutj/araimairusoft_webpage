@@ -7,6 +7,7 @@ import product_mbk from "../../public/product_mbk.png";
 import product_ksns from "../../public/product_ksns.png";
 import product_mns from "../../public/product_mns.png";
 import PurpleSection from "./PurpleSection";
+import ButtonProtoType from "./ButtonProtoType";
 export default function Product() {
   const product_list = [product_mbk, product_ksns, product_mns];
 
@@ -19,10 +20,14 @@ export default function Product() {
         <div class="col-sm-2"></div>
         <div class="col-sm-8">
           <div className="news-section child-margin-24">
+            <div className="d-flex justify-content-between">
             <h1>
               <b>Product</b>
             </h1>
-            {product_list.map((img) => (
+    
+            <ButtonProtoType />
+            </div>
+              {product_list.map((img) => (
               <Image src={img} layout={"responsive"} style={{ padding: "0" }} />
             ))}
           </div>
