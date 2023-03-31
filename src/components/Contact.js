@@ -58,9 +58,9 @@ export default function Contact({ children, style }) {
               </div>
               <div className="col-sm-4">
                 <h2 style={{ marginBottom: 16 }}>
-                  <b>Call Us</b>
+                  <b>Contact</b>
                 </h2>
-                <h3 className="thai-font">06-666-6666</h3>
+                <h3 className="thai-font"><a href ="https://www.facebook.com/aRaimaiRuSoft" ><u>Facebook Page</u></a></h3>
               </div>
             </div>
           </div>
