@@ -23,10 +23,11 @@ export default function Contact({ children, style }) {
                   <b>ประกาศรับสมัคร</b>
                 </h1>
                   <ul className="liststyledot ">
-                    <li className="liststyledot paragraph ">กรรมกรนักวาดรูป</li>
+                    <li className="liststyledot paragraph">กรรมกรนักวาดรูป</li>
                     <li className="liststyledot paragraph">กรรมกรเลื่อนปุ่ม</li>
                     <li className="liststyledot paragraph">กรรมกรเขียนบท</li>
-
+                    <li className="liststyledot paragraph">กรรมกรแปลภาษา</li>
+                    
                   </ul>
               </div>
               <div className="col-sm-8">
