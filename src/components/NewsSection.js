@@ -57,7 +57,7 @@ export default function NewsSection() {
           <div className="row">
             <div className="col-md-4">
               <ResponsiveDiv>
-                <a href="http://www.google.com">
+                <a href="https://pawutjingjit.medium.com/restful-spring-boot-unit-test-part-1-b9cf51faf8fc">
                   <Image src={article1} layout={"responsive"} />
                 </a>
               </ResponsiveDiv>
