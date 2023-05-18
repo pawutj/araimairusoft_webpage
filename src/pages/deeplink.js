@@ -7,6 +7,9 @@ const Deeplink = () => {
     <a href='myapp://com.defaultcompany.testdeeplink/your-path'>
         <button >Just Button</button>
     </a>
+    <a href='market://'>
+        <button >Market Button</button>
+    </a>
     </div>
     </div>
   )
