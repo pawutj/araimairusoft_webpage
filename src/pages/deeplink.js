@@ -4,7 +4,7 @@ const Deeplink = () => {
   return(
     <div>
   <div style={{BackGroundColor : "#FFFFFFF"}}>
-    <a href='http://com.defaultcompany.testdeeplink/your-path'>
+    <a href='myapp://com.defaultcompany.testdeeplink/your-path'>
         <button >Just Button</button>
     </a>
     </div>
