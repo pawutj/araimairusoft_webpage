@@ -7,8 +7,8 @@ const Deeplink = () => {
     <a href='app://open.my.app'>
         <button >Just Button</button>
     </a>
-    <a href='market://'>
-        <button >Market Button</button>
+    <a href='app://open.my.app?id=123456789'>
+        <button >Button wth param</button>
     </a>
     </div>
     </div>
